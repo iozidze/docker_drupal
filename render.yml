@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: drupal-service
+    env: docker
+    dockerfilePath: docker-compose.yml
